@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace WPF_XML_Serial_Deserial
+namespace XML_Serial_Deserial
 {
     /// <summary>
     /// Interaction logic for App.xaml

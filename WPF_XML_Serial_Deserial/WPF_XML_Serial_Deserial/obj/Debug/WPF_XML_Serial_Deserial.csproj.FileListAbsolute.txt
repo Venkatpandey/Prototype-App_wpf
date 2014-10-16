@@ -1,1 +1,9 @@
 C:\Users\venkat\Documents\GitHub\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\bin\Debug\WPF_XML_Serial_Deserial.exe.config
+C:\Users\venkat\Documents\GitHub\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\obj\Debug\WPF_XML_Serial_Deserial.csprojResolveAssemblyReference.cache
+C:\Users\venkat\Documents\GitHub\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\obj\Debug\MainWindow.baml
+C:\Users\venkat\Documents\GitHub\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\obj\Debug\MainWindow.g.cs
+C:\Users\venkat\Documents\GitHub\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\obj\Debug\App.g.cs
+C:\Users\venkat\Documents\GitHub\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\obj\Debug\WPF_XML_Serial_Deserial_MarkupCompile.cache
+C:\Users\venkat\Documents\GitHub\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\obj\Debug\WPF_XML_Serial_Deserial.g.resources
+C:\Users\venkat\Documents\GitHub\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\obj\Debug\WPF_XML_Serial_Deserial.Properties.Resources.resources
+C:\Users\venkat\Documents\GitHub\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\obj\Debug\WPF_XML_Serial_Deserial.csproj.GenerateResource.Cache
