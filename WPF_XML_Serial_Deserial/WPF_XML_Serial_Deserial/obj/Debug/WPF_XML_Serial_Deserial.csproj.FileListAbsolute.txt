@@ -1,1 +1,0 @@
-C:\Users\venkat\Documents\GitHub\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\WPF_XML_Serial_Deserial\bin\Debug\WPF_XML_Serial_Deserial.exe.config
