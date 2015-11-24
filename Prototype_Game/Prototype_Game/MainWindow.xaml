@@ -3,8 +3,25 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="btnReply" Content="Reply" HorizontalAlignment="Left" Margin="202,194,0,0" VerticalAlignment="Top" Width="84" Height="30" Click="btnReply_Click"/>
-        <TextBox x:Name="txtReturn" HorizontalAlignment="Left" Height="45" Margin="109,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="275"/>
+        <Button x:Name="btnReply" Content="Reply" HorizontalAlignment="Left" Margin="111,237,0,0" VerticalAlignment="Top" Width="84" Height="30" Click="btnReply_Click" IsDefault="True"/>
+        <TextBox x:Name="txtReturn" HorizontalAlignment="Left" Height="39" Margin="10,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" TextChanged="txtReturn_TextChanged"/>
+         <ScrollViewer x:Name="scrollHistory" HorizontalAlignment="Left" Height="284" Margin="201,25,0,0" VerticalAlignment="Top" Width="306">
+            <TextBlock x:Name="txtHistory" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="296" FontSize="14"/>
+        </ScrollViewer>
+
+        <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Width="517">
+            <MenuItem x:Name="menuMain" Header="Game" Click="MenuItem_Click">
+                <MenuItem x:Name="newGame" Header="New Game" HorizontalAlignment="Left" Width="170"
+			  Click="newGame_Click"/>
+                <MenuItem x:Name="saveWords" Header="Save Words" HorizontalAlignment="Left" Width="170"
+			  Click="MenuItem_Click"/>
+                <Separator HorizontalAlignment="Left" Width="140"/>
+                <MenuItem x:Name="about" Header="About" HorizontalAlignment="Left" Width="170"
+			  Click="MenuItem_Click"/>
+                <MenuItem x:Name="exit" Header="Exit" HorizontalAlignment="Left" Width="170"
+			  Click="MenuItem_Click"/>
+            </MenuItem>
+        </Menu>
 
     </Grid>
 </Window>
