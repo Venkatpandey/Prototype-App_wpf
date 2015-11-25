@@ -11,7 +11,7 @@ namespace Prototype_Game
     public class Game
     {
        
-        DictionaryLoader dictLoader = new DictionaryLoader();
+        LoadDictionary dictLoader = new LoadDictionary();
 
         public string getReply(string userWord)
         {
@@ -205,6 +205,7 @@ namespace Prototype_Game
 
         }
 
+       
       
     }
 }

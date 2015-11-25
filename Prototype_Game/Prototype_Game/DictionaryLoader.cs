@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 
 namespace Prototype_Game
 {
-    public class DictionaryLoader
+    public class LoadDictionary
     {
         public class entries
         {
@@ -24,16 +24,15 @@ namespace Prototype_Game
             [XmlAttribute("key")]
             public string keyWords { get; set; }
 
-            //[XmlElement("def")]
-            //public List<string> keyDefinition = new List<string>();
         }
 
-
+      
         public List<string> xEntries()
         {
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_x-entries.xml");
            var result = (entries)deserializer.Deserialize(reader);
+           reader.Close();
 
            var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
            return dict;
@@ -44,6 +43,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_a-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -54,6 +54,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_b-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -64,6 +65,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_c-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -74,6 +76,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_d-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -84,6 +87,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_e-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -94,6 +98,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_f-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -104,6 +109,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_g-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -114,6 +120,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_h-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -124,6 +131,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_i-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -134,6 +142,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_j-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -144,6 +153,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_k-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -154,6 +164,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_l-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -164,6 +175,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_m-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -174,6 +186,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_n-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -184,6 +197,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_o-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -194,6 +208,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_p-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -204,6 +219,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_q-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -214,6 +230,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_r-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -224,6 +241,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_s-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -234,6 +252,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_t-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -244,6 +263,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_u-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -254,6 +274,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_v-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -264,6 +285,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_w-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -274,6 +296,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_y-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
@@ -284,6 +307,7 @@ namespace Prototype_Game
             XmlSerializer deserializer = new XmlSerializer(typeof(entries));
             TextReader reader = new StreamReader(@"C:\Users\pande\Documents\GitHub\DictResource\gcide_z-entries.xml");
             var result = (entries)deserializer.Deserialize(reader);
+            reader.Close();
 
             var dict = result.keyEntry.Select(xx => xx.keyWords).ToList();
             return dict;
