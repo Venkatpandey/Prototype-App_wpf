@@ -10,3 +10,4 @@ C:\Users\pande\Documents\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\
 C:\Users\pande\Documents\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\Prototype_Game.csproj.GenerateResource.Cache
 C:\Users\pande\Documents\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\Prototype_Game.exe
 C:\Users\pande\Documents\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\Prototype_Game.pdb
+C:\Users\pande\Documents\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\Prototype_Game.csprojResolveAssemblyReference.cache

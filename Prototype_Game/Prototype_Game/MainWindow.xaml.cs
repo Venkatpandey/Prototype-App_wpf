@@ -29,15 +29,19 @@ namespace Prototype_Game
         public int SystemPoints { get; set; }
 
         Game game = new Game();
+
+        GameViewModel gvm;
+
         public MainWindow()
         {
+            gvm = (GameViewModel)base.DataContext;
             InitializeComponent();
             StartGame();
         }
 
-        private void StartGame()
+        public void StartGame()
         {
-            //new GameSettings();
+
             txtHistory.Text = string.Empty;
             string newWord = game.gameInitiator();
             string retSysWord = playedWord(newWord);
@@ -55,8 +59,7 @@ namespace Prototype_Game
 
         private void saveWords_Click(object sender, RoutedEventArgs e)
         {
-            //string fileloc = @"C:\Users\pande\Documents\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\bin\Debug\SaveWords.txt";
-            //StreamWriter file = new System.IO.StreamWriter(fileloc);
+
             string filename = DateTime.Now.ToString("yyyy-dd-M-HH-mm-ss");
             FileStream fs = new FileStream(filename, FileMode.CreateNew);
             StreamWriter file = new StreamWriter(fs);
@@ -104,7 +107,7 @@ namespace Prototype_Game
 
         private void txtReturn_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            scrollHistory.ScrollToBottom();
         }
 
 

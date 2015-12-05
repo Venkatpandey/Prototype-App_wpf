@@ -1,12 +1,15 @@
-﻿<Window x:Class="Prototype_Game.MainWindow"
+﻿<Window x:Name="Word_Building_Game" x:Class="Prototype_Game.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="594">
-    <Grid Margin="0,0,-8,0">
+        Title="Word Building Game" Height="361" Width="611" SizeToContent="WidthAndHeight">
+    <!--<Window.DataContext>
+        <local:GameViewModel />
+    </Window.DataContext>-->
+    <Grid Margin="0,0,2,0">
         <Button x:Name="btnReply" Content="Reply" HorizontalAlignment="Left" Margin="134,264,0,0" VerticalAlignment="Top" Width="84" Height="30" Click="btnReply_Click" IsDefault="True"/>
-        <TextBox x:Name="txtReturn" HorizontalAlignment="Left" Height="35" Margin="10,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" TextChanged="txtReturn_TextChanged"/>
-        <ScrollViewer x:Name="scrollHistory" HorizontalAlignment="Left" Height="284" Margin="278,25,0,0" VerticalAlignment="Top" Width="306">
-            <TextBlock x:Name="txtHistory" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="296" FontSize="14"/>
+        <TextBox x:Name="txtReturn" HorizontalAlignment="Left" Height="25" Margin="10,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" TextChanged="txtReturn_TextChanged" SpellCheck.IsEnabled="True" Language="en-US"/>
+        <ScrollViewer x:Name="scrollHistory" HorizontalAlignment="Left" Height="295" Margin="278,25,0,0" VerticalAlignment="Top" Width="306">
+            <TextBlock x:Name="txtHistory" Text="{Binding updateHistory}" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="296" FontSize="14"/>
         </ScrollViewer>
 
         <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Width="584" Margin="0,2,0,0">
@@ -26,7 +29,8 @@
         <Label x:Name="lblSysScore" Content="" HorizontalAlignment="Left" Margin="107,92,0,0" VerticalAlignment="Top" Width="123" FontSize="14" Foreground="Red"/>
         <Label x:Name="lblUser" Content="User Score" HorizontalAlignment="Left" Margin="10,136,0,0" VerticalAlignment="Top" Width="80" FontSize="14"/>
         <Label x:Name="lblUserScore" Content="" HorizontalAlignment="Left" Margin="107,136,0,0" VerticalAlignment="Top" Width="124" FontSize="14" Foreground="Red"/>
-        <Label x:Name="lblSystem_Copy" Content="Word Building Game" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top" FontSize="16" Width="172" FontWeight="Bold" Foreground="Blue"/>
+        <Label x:Name="lblSystem_Copy" Content="Word Building Game" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top" FontSize="16" Width="172" FontWeight="Bold" Foreground="Blue"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="280" Margin="272,29,0,0" VerticalAlignment="Top" Width="1"/>
 
     </Grid>
 </Window>
