@@ -11,3 +11,16 @@ C:\Users\pande\Documents\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\
 C:\Users\pande\Documents\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\Prototype_Game.exe
 C:\Users\pande\Documents\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\Prototype_Game.pdb
 C:\Users\pande\Documents\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\Prototype_Game.csprojResolveAssemblyReference.cache
+C:\sandbox\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\bin\Debug\Prototype_Game.exe.config
+C:\sandbox\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\Prototype_Game.exe
+C:\sandbox\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\Prototype_Game.pdb
+C:\sandbox\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\bin\Debug\Prototype_Game.exe
+C:\sandbox\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\bin\Debug\Prototype_Game.pdb
+C:\sandbox\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\Prototype_Game.csprojResolveAssemblyReference.cache
+C:\sandbox\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\MainWindow.baml
+C:\sandbox\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\MainWindow.g.cs
+C:\sandbox\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\App.g.cs
+C:\sandbox\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\Prototype_Game_MarkupCompile.cache
+C:\sandbox\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\Prototype_Game.g.resources
+C:\sandbox\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\Prototype_Game.Properties.Resources.resources
+C:\sandbox\GitHub\Prototype-App_wpf\Prototype_Game\Prototype_Game\obj\Debug\Prototype_Game.csproj.GenerateResource.Cache

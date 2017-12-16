@@ -17,16 +17,17 @@ using System.Windows.Shapes;
 namespace Prototype_Game
 {
     /// <summary>
+    /// 
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
         public List<string> playedWords = new List<string>();
 
-        public int PlayerScore { get; set; }
-        public int PlayerPoints { get; set; }
-        public int SystemScore { get; set; }
-        public int SystemPoints { get; set; }
+        private int PlayerScore { get; set; }
+        private int PlayerPoints { get; set; }
+        private int SystemScore { get; set; }
+        private int SystemPoints { get; set; }
 
         Game game = new Game();
 
@@ -106,7 +107,7 @@ namespace Prototype_Game
         }
 
         private void txtReturn_TextChanged(object sender, TextChangedEventArgs e)
-        {
+       {
             scrollHistory.ScrollToBottom();
         }
 

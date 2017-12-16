@@ -12,9 +12,6 @@ namespace Prototype_Game
     /// </summary>
     class GameViewModel : INotifyPropertyChanged
     {
-
-
-
         public event PropertyChangedEventHandler PropertyChanged;
         
         private void RaisePropertyChanged(string propertyName)

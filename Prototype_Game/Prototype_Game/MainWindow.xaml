@@ -27,7 +27,7 @@
         </Menu>
         <Label x:Name="lblSystem" Content="System Score" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top" FontSize="14"/>
         <Label x:Name="lblSysScore" Content="" HorizontalAlignment="Left" Margin="107,92,0,0" VerticalAlignment="Top" Width="123" FontSize="14" Foreground="Red"/>
-        <Label x:Name="lblUser" Content="User Score" HorizontalAlignment="Left" Margin="10,136,0,0" VerticalAlignment="Top" Width="80" FontSize="14"/>
+        <Label x:Name="lblUser" Content="Score" HorizontalAlignment="Left" Margin="10,136,0,0" VerticalAlignment="Top" Width="49" FontSize="14"/>
         <Label x:Name="lblUserScore" Content="" HorizontalAlignment="Left" Margin="107,136,0,0" VerticalAlignment="Top" Width="124" FontSize="14" Foreground="Red"/>
         <Label x:Name="lblSystem_Copy" Content="Word Building Game" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top" FontSize="16" Width="172" FontWeight="Bold" Foreground="Blue"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="280" Margin="272,29,0,0" VerticalAlignment="Top" Width="1"/>
